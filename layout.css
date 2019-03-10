@@ -75,10 +75,10 @@ a:hover {
 .body {
     font-family: 'Open Sans', sans-serif;
     background-image: url("background.png");
-    background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 1.8cm;
+    background-position-y: 0cm;
     background-size: 99%;
+    background-repeat: repeat-y;
 }
 .body footer {
     text-align: center;
