@@ -101,7 +101,8 @@ a:hover {
 /* master formatting */
 .body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("background.png");
+    background: linear-gradient(to bottom, transparent, 75%, white),
+    url("backgroundGradient.png");
     background-position: center;
     background-position-y: 11cm;
     background-size: 100%;
