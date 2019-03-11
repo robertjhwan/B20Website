@@ -118,18 +118,18 @@ a:hover {
 .section{
     overflow-wrap: break-word;
     background-color: #FFF;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: -86px;
+    margin-bottom: 114px;
     margin-left: 15%;
     margin-right: 15%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     display: block;
 
+    
+
     /* drop animation part */
     animation-play-state: running;
-
     animation: drop-animate .5s ease-in-out 0ms 1 normal forwards;
-
     /* drop animation part */
 
 }
