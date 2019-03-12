@@ -5,7 +5,7 @@
     position: fixed;
     left:1%;
     top:12.5px;
-    z-index: 1000;
+    z-index: 1001;
 }
 
 .logoImage{
@@ -43,6 +43,7 @@
     position: fixed;
     width: 100%;
     top:0px;
+    z-index: 1000;
 }
 
 .headerBar{
@@ -173,7 +174,7 @@ a:hover {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     display: block;
 
-    
+    border-radius: 10px;
 
     /* drop animation part */
     animation-play-state: running;
@@ -270,6 +271,4 @@ label {
 footer{
     color: white;
 }
-
-
 
