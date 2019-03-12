@@ -1,3 +1,60 @@
+/* home logo formatting */
+.logo{
+    width:50px;
+    height:50px;
+    position: absolute;
+    left:1%;
+    top:12.5px;
+}
+
+.logoImage{
+    width:100%;
+    height:100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+/* home logo animation */
+  
+.logo:hover .logoImage {
+    opacity: 1;
+    background: radial-gradient(transparent, 50%, #354B61), grey;
+}
+
+.logoWrapp a:before {
+    height: 0px;
+}
+
+.logoWrapp a:hover:before {
+}
+
+.logoWrapp a:hover {
+}
+  
+
+
+/* nav bar formatting */
+.nav{
+    background-color: #354B61;
+    height: 80px;
+}
+
+.headerBar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: #354B61;
+    font-size: 15px;
+    text-decoration: none;
+}
+
 /* header */
 
 .headerSection{
@@ -15,25 +72,28 @@
     
 }
 
+.headerSectionElse{
+    align-items: center;
+    background-image: url(landing.jpg);
+    background-size: auto;
+    color : white;
+    display: flex;
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: left;
+    
+}
+
 .headerSection .img{
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.headerBar{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 80px;
-    margin-left: 80px;
-    flex-wrap: wrap;
-    height: 100%;
-    background-color: #354B61;
-    font-size: 15px;
-    text-decoration: none;
-}
+
 
 /* IMPORTANT */
 /* removes bullet from head of ALL lists */
@@ -92,23 +152,7 @@ a:hover {
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* nav bar formatting */
-.nav{
-    background-color: #354B61;
-    height: 80px;
-}
 
-/* master formatting */
-.body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("background.png");
-    background-position: center;
-    background-position-y: 11cm;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-}
 .body footer {
     text-align: center;
 }
@@ -118,18 +162,18 @@ a:hover {
 .section{
     overflow-wrap: break-word;
     background-color: #FFF;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: -86px;
+    margin-bottom: 114px;
     margin-left: 15%;
     margin-right: 15%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     display: block;
 
+    
+
     /* drop animation part */
     animation-play-state: running;
-
     animation: drop-animate .5s ease-in-out 0ms 1 normal forwards;
-
     /* drop animation part */
 
 }
@@ -155,6 +199,44 @@ a:hover {
     margin:10px;
 }
 
+/* calender stuff */
+
+#calendar {
+    border-width: 0;
+    width: 100%;
+}
+
+.calenWrapp{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+
+/* master formatting */
+.body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(to bottom, transparent, 75%, white),
+    url("backgroundGradient.png");
+    background-position: center;
+    background-position-y: 11cm;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodyElse {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(to bottom, transparent, 75%, white),
+    url("backgroundGradient.png");
+    background-position: center;
+    background-position-y: 7cm;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
 
 
 /* mobile menu stuff, ignore for now */
@@ -184,3 +266,4 @@ label {
 footer{
     color: white;
 }
+
