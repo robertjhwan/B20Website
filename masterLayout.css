@@ -62,9 +62,9 @@
 
 /* header */
 
-.headerSection{
+.headerSection{ 
     align-items: center;
-    background-image: url(landing.jpg);
+    background-image: url(landing.jpeg);
     background-size: auto;
     color : white;
     display: flex;
@@ -79,8 +79,8 @@
 
 .headerSectionElse{
     align-items: center;
-    background-image: url(landing.jpg);
-    background-size: auto;
+    background-image: url(landing.jpeg);
+    background-size: cover;
     color : white;
     display: flex;
     height: 150px;
