@@ -176,13 +176,8 @@ a:hover {
 
     border-radius: 10px;
 
-    /* drop animation part */
-    animation-play-state: running;
-    animation: drop-animate .5s ease-in-out 0ms 1 normal forwards;
-    /* drop animation part */
 
 }
-
 /* header formatting */
 .section h2{
     overflow-wrap: break-word;
@@ -203,6 +198,59 @@ a:hover {
 .section .info p{
     margin:10px;
 }
+/* end of sections */
+
+
+/* narrow sections */
+.sectionWrapp{
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionNarrow{
+    overflow-wrap: break-word;
+    background-color: #FFF;
+    margin: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    display: block;
+    min-width: 250px;
+    border-radius: 10px;
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+/* header formatting */
+.sectionNarrow h2{
+    overflow-wrap: break-word;
+    color: #4BAFE0;
+    font-size: 26px;
+    padding: 12px;
+    display: block;
+    border-bottom-color:rgb(238, 238, 238);
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+}
+/* info formatting */
+.sectionNarrow info{
+    overflow-wrap: break-word;
+    display: block;
+    padding:15px;
+}
+.sectionNarrow .info p{
+    margin:10px;
+}
+
+.sectionNarrow img{
+    width:100%;
+}
+/* end of narrow sections */
+
 
 /* calender stuff */
 
